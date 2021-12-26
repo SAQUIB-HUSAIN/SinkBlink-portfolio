@@ -1,0 +1,136 @@
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.aboutHeading {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ffa500;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.aboutPara {
+  width: 80%;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: left;
+  color: #fff;
+}
+
+.aboutImg {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.buttonFlex {
+  padding-top: 4rem;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f2f2f;
+  border-radius: 12px;
+  margin: 5rem 1rem;
+  padding: 3rem 5rem;
+}
+
+.formHeading {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ffa500;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  color: #ffa500;
+  font-size: 3rem;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.form input {
+  padding: 1rem;
+  font-size: 24px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.form textarea {
+  margin-bottom: 2rem;
+  font-size: 24px;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: inherit;
+  height: 15rem;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    display: block;
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  .formHeading {
+    width: 100%;
+  }
+
+  .form label {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .form input {
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+
+  .form textarea {
+    font-size: 12px;
+    padding: 0.5rem;
+    height: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    display: block;
+  }
+
+  .aboutHeading {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .aboutPara {
+    text-align: center;
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .aboutImg {
+    width: 300px;
+  }
+
+  .buttonFlex {
+    display: block;
+    width: 100%;
+  }
+}

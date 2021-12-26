@@ -1,0 +1,120 @@
+.homeContainer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  /* padding: 3rem; */
+}
+
+.homeHeading {
+  color: #fff;
+  font-size: 8rem;
+  font-weight: 600;
+  line-height: 1.1;
+  padding-bottom: 1rem;
+}
+
+.homePara {
+  font-size: 2rem;
+  color: #ffb500;
+  padding-bottom: 3rem;
+}
+
+.image {
+  width: 700px;
+}
+
+.rating {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  /* box-shadow: 0 2px 8px rgba(197, 197, 197, 0.8); */
+  margin: 0 20rem;
+  padding: 3rem 5rem;
+}
+
+.homeRating {
+  font-size: 10rem;
+  color: #fff;
+}
+
+.horizontal {
+  border: none;
+  background-color: #fff;
+  height: 2px;
+  margin: 0 12rem;
+  margin-bottom: 1rem;
+}
+
+.cardSection {
+  padding-top: 6rem;
+}
+
+.cardFlex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.cardMain {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ffa500;
+  margin-bottom: 7rem;
+}
+
+.cardImg {
+  width: 120px;
+}
+
+.cardHeading {
+  font-size: 3rem;
+  color: #4f005f;
+}
+
+.cardParas {
+  font-size: 1.8rem;
+  color: #333;
+  padding-top: 3rem;
+}
+
+.homeLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .homeContainer {
+    display: block;
+    padding: 2rem;
+  }
+
+  .homeHeading {
+    font-size: 3rem;
+  }
+
+  .homePara {
+    font-size: 1rem;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .rating {
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(197, 197, 197, 0.8);
+    margin: 0 2rem;
+    padding: 3rem;
+  }
+
+  .horizontal {
+    border: none;
+    background-color: #fff;
+    height: 2px;
+    margin: 0 3rem;
+    margin-bottom: 1rem;
+  }
+}

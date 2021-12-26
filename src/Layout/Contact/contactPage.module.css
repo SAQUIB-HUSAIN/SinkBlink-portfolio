@@ -1,0 +1,72 @@
+.formContainer {
+  background-color: #2f2f2f;
+  border-radius: 12px;
+  margin: 5rem 20rem;
+  padding: 3rem 5rem;
+}
+
+.formHeading {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ffa500;
+  padding-bottom: 0.5rem;
+}
+
+.formPara {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  color: #ffa500;
+  font-size: 3rem;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.form input {
+  padding: 1rem;
+  font-size: 24px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.form textarea {
+  margin-bottom: 2rem;
+  font-size: 24px;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: inherit;
+  height: 15rem;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  .form label {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .form input {
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+
+  .form textarea {
+    font-size: 12px;
+    padding: 0.5rem;
+    height: 10rem;
+  }
+}

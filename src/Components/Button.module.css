@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #4f005f;
+  border: 1px solid #ffa500;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .button {
+    display: block;
+  }
+}
+
+.button:hover {
+  opacity: 0.8;
+  border: 1px solid #fff;
+  transition: all 0.2s ease;
+}
