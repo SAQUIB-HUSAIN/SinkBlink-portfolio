@@ -101,7 +101,7 @@
   }
 
   .image {
-    width: 300px;
+    width: 400px;
   }
 
   .rating {
@@ -118,5 +118,9 @@
     height: 2px;
     margin: 0 3rem;
     margin-bottom: 1rem;
+  }
+
+  .cardParas {
+    font-size: 1.8rem;
   }
 }
