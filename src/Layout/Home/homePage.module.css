@@ -87,19 +87,22 @@
 @media (max-width: 768px) {
   .homeContainer {
     display: block;
-    padding: 2rem;
+    padding: 5rem;
   }
 
   .homeHeading {
-    font-size: 3rem;
+    text-align: center;
+    font-size: 4rem;
   }
 
   .homePara {
-    font-size: 1rem;
+    text-align: center;
+    font-size: 2rem;
   }
 
   .image {
-    width: 300px;
+    margin-left: 10rem;
+    width: 400px;
   }
 
   .rating {

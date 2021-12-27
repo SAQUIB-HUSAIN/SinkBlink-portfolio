@@ -32,17 +32,6 @@ export default function Home() {
           <img className={classes.image} src="/Creative.png" alt="creative" />
         </div>
       </div>
-      <div className={classes.homeContainer}>
-        <div>
-          <img className={classes.image} src="/color.png" alt="color" />
-        </div>
-        <div>
-          <div className={classes.homeHeading}>Interaction Design.</div>
-          <p className={classes.homePara}>
-            Let's make your first design, with great responsive user Interface.
-          </p>
-        </div>
-      </div>
 
       <div className={classes.rating}>
         <div className={classes.homeRating}>4.8x</div>
